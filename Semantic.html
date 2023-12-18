@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>semantic elements</title>
+	<style>
+		nav {
+			display: flex;
+			align-items: center;
+			background-color: rgb(136, 26, 26);
+			height: 50px;
+		}
+		ol {
+			display: flex;
+		}
+		ol li {
+			list-style: none;
+			padding: 15px;
+		}
+		ol li a {
+			text-decoration: none;
+			color: black;
+		}
+		
+		.mid {
+			display: flex;
+			flex-direction: row;
+
+		}
+		aside img {
+			height: 400px;
+			width: 360px;
+			margin-left: 2vw;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<img src= "Google_logo.png" height="80px" width="150px">
+	</header>
+	<nav>
+		<ol>
+			<li><a href="#">All</a></li>
+			<li><a href="#">Images</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">Books</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">more</a></li>
+		</ol>
+	</nav>
+	<div class="mid">
+		<div class="container">
+			<section>
+				<img src= "Google_imag.png" height="450px" width="800px" style="margin-top: 40px; margin-left:20px;" alt="no image">
+			</section>	
+		</div>
+		<aside>
+			<img src= "Google_img2.png" alt="aside image" width="450px" height="800px" style="margin-top: 30px; margin-left: 50px;">
+		</aside>
+	</div>
+    
+	<footer style="margin-top: 20px;">
+		<b>All copyrights By Google</b>
+	</footer>
+</body>
+</html>
